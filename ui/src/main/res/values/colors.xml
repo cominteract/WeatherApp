@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="primary">@color/palette_primary_200</color>
+    <color name="primary_dark">@color/palette_primary_100</color>
+    <color name="primary_light">@color/palette_primary_300</color>
+    <color name="color_on_primary">@color/palette_white_100</color>
+
+    <color name="surface">@color/palette_surface_100</color>
+    <color name="surface_secondary">@color/palette_surface_200</color>
+    <color name="surface_tertiary">@color/palette_surface_300</color>
+
+    <color name="color_on_surface">@color/palette_black_100</color>
+    <color name="color_on_surface_tertiary">@color/palette_tertiary_100</color>
+
+    <color name="secondary">@color/palette_secondary_200</color>
+    <color name="secondary_dark">@color/palette_secondary_100</color>
+    <color name="secondary_light">@color/palette_secondary_300</color>
+    <color name="color_on_secondary">@color/palette_black_100</color>
+
+    <color name="divider">@color/palette_white_200</color>
+    <color name="shadow">@color/palette_black_200</color>
+
+</resources>

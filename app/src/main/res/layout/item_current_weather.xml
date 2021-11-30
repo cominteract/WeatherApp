@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/spacing_xs"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_marginTop="@dimen/spacing_l"
+        android:padding="@dimen/spacing_sm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/tv_timezone"
+        android:gravity="center_horizontal"
+        style="@style/Text.Heading.1"
+        tools:text="Asia/Philippines"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="@dimen/spacing_s"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_timezone"
+        android:id="@+id/tv_date"
+        android:gravity="center_horizontal"
+        style="@style/Text.Heading.3"
+        tools:text="December 1 2021"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_date"
+        android:id="@+id/iv_description"
+        tools:src="@drawable/brokenclouds_night"
+        android:layout_width="128dp"
+        android:layout_height="128dp" />
+    <TextView
+        android:padding="@dimen/spacing_sm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/iv_description"
+        android:id="@+id/tv_description"
+        android:gravity="center_horizontal"
+        style="@style/Text.Body"
+        tools:text="light rain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_description"
+        app:layout_constraintDimensionRatio="1.9:1"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:id="@+id/iv_sunrise_sunset"
+        android:src="@drawable/sunrisesunset"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        app:layout_constraintStart_toStartOf="@id/iv_sunrise_sunset"
+        app:layout_constraintTop_toBottomOf="@id/iv_sunrise_sunset"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintEnd_toStartOf="@id/tv_sunset"
+        android:background="@color/surface_secondary"
+        style="@style/Text.Body.2"
+        android:padding="@dimen/spacing_sm"
+        tools:text="Sunrise : "
+        android:id="@+id/tv_sunrise"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_sunrise"
+        app:layout_constraintTop_toBottomOf="@id/iv_sunrise_sunset"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        style="@style/Text.Body.2"
+        android:background="@color/surface_secondary"
+        android:padding="@dimen/spacing_sm"
+        tools:text="Sunset : "
+        android:id="@+id/tv_sunset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

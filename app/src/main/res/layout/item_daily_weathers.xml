@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/spacing_xs"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <View
+        android:id="@+id/bg_weather"
+        app:layout_constraintTop_toTopOf="@id/iv_description"
+        app:layout_constraintBottom_toBottomOf="@id/iv_description"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:padding="@dimen/spacing_s"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/tv_date"
+        style="@style/Text.Heading.2"
+        tools:text="December 1 2021"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+
+        android:layout_marginHorizontal="@dimen/spacing_s"
+        app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toBottomOf="@id/tv_date"
+        android:id="@+id/iv_description"
+        tools:src="@drawable/brokenclouds_night"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+    <TextView
+        android:paddingHorizontal="@dimen/spacing_s"
+        app:layout_constraintStart_toEndOf="@id/iv_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/iv_description"
+        app:layout_constraintTop_toTopOf="@id/iv_description"
+        android:id="@+id/tv_description"
+        style="@style/Text.Body"
+        tools:text="light rain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bg_weather"
+        app:layout_constraintDimensionRatio="4:3"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:id="@+id/iv_day"
+        android:src="@drawable/day"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+    <com.google.android.material.imageview.ShapeableImageView
+        app:layout_constraintStart_toEndOf="@id/iv_day"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bg_weather"
+        app:layout_constraintDimensionRatio="4:3"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:id="@+id/iv_night"
+        android:src="@drawable/night"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+    <TextView
+        app:layout_constraintStart_toStartOf="@id/iv_day"
+        app:layout_constraintEnd_toEndOf="@id/iv_day"
+        app:layout_constraintBottom_toBottomOf="@id/iv_day"
+        style="@style/Text.Body"
+        android:padding="@dimen/spacing_sm"
+        tools:text="Day"
+        android:id="@+id/tv_day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        app:layout_constraintStart_toStartOf="@id/iv_night"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/iv_night"
+        style="@style/Text.Body"
+        android:padding="@dimen/spacing_sm"
+        tools:text="Night"
+        android:id="@+id/tv_night"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xxxs">1dp</dimen>
+    <dimen name="spacing_xxs">2dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xsm">6dp</dimen>
+    <dimen name="spacing_s">8dp</dimen>
+    <dimen name="spacing_sm">12dp</dimen>
+    <dimen name="spacing_m">16dp</dimen>
+    <dimen name="spacing_ml">20dp</dimen>
+    <dimen name="spacing_l">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+    <dimen name="spacing_xxxl">64dp</dimen>
+    <dimen name="spacing_xxxxl">72dp</dimen>
+    <dimen name="spacing_xxxxxl">90dp</dimen>
+
+
+    <dimen name="font_size_heading_1">48sp</dimen>
+    <dimen name="font_size_heading_2">32sp</dimen>
+    <dimen name="font_size_heading_3">24sp</dimen>
+    <dimen name="font_size_heading_4">20sp</dimen>
+    <dimen name="font_size_heading_5">18sp</dimen>
+
+    <dimen name="font_size_subtitle_1">16sp</dimen>
+    <dimen name="font_size_subtitle_2">14sp</dimen>
+
+    <dimen name="font_size_body_1">16sp</dimen>
+    <dimen name="font_size_body_2">14sp</dimen>
+
+    <dimen name="default_corner_radius">24dp</dimen>
+    <integer name="slide">400</integer>
+    <integer name="slide_faster">200</integer>
+
+</resources>

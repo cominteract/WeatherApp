@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="palette_surface_100">#3671AB</color>
+    <color name="palette_surface_200">#79b9e1</color>
+    <color name="palette_surface_300">#33000000</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="palette_primary_100">#434ECB</color>
+    <color name="palette_primary_200">#7C7AFF</color>
+    <color name="palette_primary_300">#B2A9FF</color>
+    <color name="palette_secondary_100">#549DB9</color>
+    <color name="palette_secondary_200">#87ceeb</color>
+    <color name="palette_secondary_300">#BAFFFF</color>
+    <color name="palette_tertiary_100">#FDDEAF</color>
+    <color name="palette_black_100">#161616</color>
+    <color name="palette_black_200">#232323</color>
+    <color name="palette_white_100">#f7f7f9</color>
+    <color name="palette_white_200">#cbcbd8</color>
+
+
+</resources>

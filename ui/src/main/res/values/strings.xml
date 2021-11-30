@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_forecast">Current Forecast</string>
+    <string name="daily_weather">Daily Weather</string>
+    <string name="day_temp_text">Day : %s \u2109</string>
+    <string name="night_temp_text">Night : %s \u2109</string>
+    <string name="cloud_temp_text">Cloud : %s</string>
+    <string name="humidity_temp_text">Humidity : %s</string>
+    <string name="pressure_temp_text">Pressure : %s</string>
+    <string name="sunrise_text">Sunrise : %s</string>
+    <string name="sunset_text">Sunset : %s</string>
+</resources>

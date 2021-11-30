@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- TODO : nick please update to necessary brands and properties as these are just placeholders -->
+    <style name="Text">
+        <item name="android:textColor">@color/color_on_primary</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Title">
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textSize">@dimen/font_size_heading_1</item>
+    </style>
+
+    <style name="Text.Heading">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/color_on_surface</item>
+        <item name="android:textSize">@dimen/font_size_heading_1</item>
+    </style>
+
+    <style name="Text.Heading.1">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/color_on_primary</item>
+        <item name="android:textSize">@dimen/font_size_heading_2</item>
+    </style>
+
+    <style name="Text.Heading.1.Secondary">
+        <item name="android:textColor">@color/color_on_secondary</item>
+    </style>
+
+    <style name="Text.Heading.2">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/color_on_primary</item>
+        <item name="android:textSize">@dimen/font_size_heading_3</item>
+    </style>
+
+
+    <style name="Text.Heading.2.Secondary">
+        <item name="android:textColor">@color/color_on_secondary</item>
+    </style>
+
+    <style name="Text.Heading.3">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/color_on_primary</item>
+        <item name="android:textSize">@dimen/font_size_heading_4</item>
+    </style>
+
+    <style name="Text.Heading.3.Secondary">
+        <item name="android:textColor">@color/color_on_secondary</item>
+    </style>
+
+    <style name="Text.Heading.4">
+        <item name="android:textColor">@color/color_on_primary</item>
+        <item name="android:textSize">@dimen/font_size_heading_5</item>
+    </style>
+
+    <style name="Text.Heading.4.Bold">
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="Text.Heading.4.Secondary">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/color_on_secondary</item>
+    </style>
+
+    <style name="Text.Heading.5">
+        <item name="android:textColor">@color/color_on_surface_tertiary</item>
+        <item name="android:textSize">@dimen/font_size_heading_5</item>
+    </style>
+
+
+    <style name="Text.Body">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/font_size_body_1</item>
+    </style>
+
+    <style name="Text.Body.2">
+        <item name="android:textSize">@dimen/font_size_body_2</item>
+    </style>
+
+    <style name="Text.Body.Secondary">
+        <item name="android:textColor">@color/color_on_secondary</item>
+    </style>
+
+    <style name="Text.Body.2.Secondary">
+        <item name="android:textColor">@color/color_on_secondary</item>
+    </style>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.ainsigne.weatherapp.ui.main.MainFragment"
+        android:label="@string/app_name"
+        >
+        <action android:id="@+id/main_to_details"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/pull_up_from_bottom"
+            app:exitAnim="@anim/pull_bottom_from_up"
+            app:popEnterAnim="@anim/pull_up_from_bottom"
+            app:popExitAnim="@anim/pull_bottom_from_up"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.ainsigne.weatherapp.ui.details.DetailsFragment"
+        android:label="@string/app_name"
+        >
+        <argument
+            android:name="dt"
+            app:argType="long" />
+        <argument
+            android:name="width"
+            app:argType="integer" />
+        <argument
+            android:name="height"
+            app:argType="integer" />
+        <argument
+            android:name="y_axis"
+            android:defaultValue="200"
+            app:argType="integer" />
+        <argument
+            android:name="x_axis"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="isDaily"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+
+
+
+</navigation>
